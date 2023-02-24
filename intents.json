@@ -3,6 +3,11 @@
     {"tag": "greetings",
     "patterns": ["hello", "hey", "hi", "good morning", "yo", "good afternoon", "howdy", "greetings", "what's up?", "how's it going?"],
     "responses": ["Hello!", "Hi!", "Hey!", "What can I do for you?"]
-}
+},
+
+    {"tag": "goodbye",
+    "patterns":["cya", "bye", "goodbye", "adios", "talk to you later", "ciao", "peace", "see ya", "have a good one"],
+    "responses":["Goodbye!", "Have a great day!", "Bye for now!"]
+    }
 
 ]}

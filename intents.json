@@ -38,6 +38,11 @@
     {"tag": "facts",
     "patterns":["tell me a fun fact", "fun facts", "random fact", "tell me something cool", "new fun fact"],
     "responses":["Did you know that the moon has moonquakes?", "Your nostrils work one at a time!", "Cotton candy was invented by a dentist.", "The first computer was invented in the 1940s."]
+    },
+
+    {"tag": "advice",
+    "patterns":["i need advice", "advice", "what should i do?", "i'm lost", "confused", "don't know what to do"],
+    "responses":["I'll do my best! I know things may seem tough in the moment, but they always get better.", "Being yourself is the bravest thing you can do.", "You're one of a kind, and the world needs your uniqueness."]
     }
 
 ]}

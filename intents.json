@@ -13,6 +13,11 @@
     {"tag": "sad",
     "patterns":["i'm sad", "feeling sad", "unhappy", "depressed", "hard day", "feeling down"],
     "responses":["I'm sorry you're feeling sad. What can I do to help?", "Do you want to talk about it?", "What can I do to help?", "Do you want to share what made you feel sad?"]
+    },
+
+    {"tag": "happy",
+    "patterns":["i'm happy", "i'm good", "it's been a good day", "i'm excited", "life is good"],
+    "responses":["I'm happy to hear that!", "Yay, that's awesome!", "I love happy days!"]
     }
 
 ]}

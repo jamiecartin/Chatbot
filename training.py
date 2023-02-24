@@ -26,3 +26,5 @@ for intent in intents['intents']:
         documents.append((word_list, intent['tag']))
         if intent['tag'] not in classes:
             classes.append(intent['tag'])
+            
+words = [lemmatizer.lemmatize(word) for word in words if word not in ignore_letters]

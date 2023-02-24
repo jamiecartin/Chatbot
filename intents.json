@@ -33,6 +33,11 @@
     {"tag": "listen",
     "patterns":["listen", "can i tell you something?", "listen to my day"],
     "responses":["Sure! I'm here to listen.", "Absolutely! I'm here to listen whenever you need.", "No problem! Feel free to tell me anything."]
+    },
+
+    {"tag": "facts",
+    "patterns":["tell me a fun fact", "fun facts", "random fact", "tell me something cool", "new fun fact"],
+    "responses":["Did you know that the moon has moonquakes?", "Your nostrils work one at a time!", "Cotton candy was invented by a dentist.", "The first computer was invented in the 1940s."]
     }
 
 ]}

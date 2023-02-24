@@ -28,3 +28,8 @@ for intent in intents['intents']:
             classes.append(intent['tag'])
             
 words = [lemmatizer.lemmatize(word) for word in words if word not in ignore_letters]
+words = sorted(set(words))
+
+classes = sorted(set(words))
+pickle.dump(words, open('words.pkl', 'wb'))
+pickle.dump(words, open('classes.pkl', 'wb'))

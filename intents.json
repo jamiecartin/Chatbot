@@ -28,6 +28,11 @@
     {"tag": "functions",
     "patterns":["what can you do?", "what can you do?", "got any tricks?"],
     "responses":["I can do all sorts of things! I can listen, offer advice, keep a journal, explain things, and more!", "I'm still learning, but I can do lots! I can talk to you, listen, help you out with advice, teach you things, and learn things from you!"]
+    },
+
+    {"tag": "listen",
+    "patterns":["listen", "can i tell you something?", "listen to my day"],
+    "responses":["Sure! I'm here to listen.", "Absolutely! I'm here to listen whenever you need.", "No problem! Feel free to tell me anything."]
     }
 
 ]}

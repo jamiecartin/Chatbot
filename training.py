@@ -33,3 +33,11 @@ words = sorted(set(words))
 classes = sorted(set(words))
 pickle.dump(words, open('words.pkl', 'wb'))
 pickle.dump(words, open('classes.pkl', 'wb'))
+
+training = []
+output_empty = [0] * len(classes)
+
+for document in documents:
+    bag = []
+    word_patterns = document[0]
+    word_patterns = [lemmatizer.lemmatize(word.lower() for word in word_patterns)]

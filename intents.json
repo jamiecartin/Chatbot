@@ -39,6 +39,11 @@
     "patterns":["tell me a fun fact", "fun facts", "random fact", "tell me something cool", "new fun fact"],
     "responses":["Did you know that the moon has moonquakes?", "Your nostrils work one at a time!", "Cotton candy was invented by a dentist.", "The first computer was invented in the 1940s."]
     },
+    
+    {"tag": "shutoff",
+    "patterns":["turn off", "shutdown", "shut off", "power down", "power off", "go away"],
+    "responses":["Shutting down now! Have a good day.", "Powering down in 3, 2, 1. Goodbye!"]
+    },
 
     {"tag": "advice",
     "patterns":["i need advice", "advice", "what should i do?", "i'm lost", "confused", "don't know what to do"],
